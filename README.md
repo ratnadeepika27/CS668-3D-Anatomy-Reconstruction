@@ -1,4 +1,4 @@
-# CS668-3D-Anatomy-Reconstruction
+# cs668 3d anatomy reconstruction
 
 ## Author
 Ratna Deepika Pogula
