@@ -37,31 +37,43 @@ Reconstructing incomplete 3D anatomical structures is critical for applications 
 
 ## Methodology
 **Data Preparation:**
-Preprocessing: The 3D CT scans and their corresponding anatomical segmentations, stored in 'nii.gz' format, are processed using nibabel and NumPy. The data is normalized and visualized to ensure quality.
 
-**Subset Selection:** A subset of 102 subjects is selected to balance data diversity and computational efficiency.
+* **Preprocessing:** The 3D CT scans and their corresponding anatomical segmentations, stored in 'nii.gz' format, are processed using nibabel and NumPy. The data is normalized and visualized to ensure quality.
+
 
 * **Model Implementation:**
-3D U-Net: The model utilizes an encoder-decoder structure with 3D convolutions, ReLU activations, and skip connections to preserve spatial details. It is trained with cross-entropy loss, Adam optimizer (learning rate: 0.001), and data augmentation for better generalization.
+**3D U-Net:** The model utilizes an encoder-decoder structure with 3D convolutions, ReLU activations, and skip connections to preserve spatial details. It is trained with cross-entropy loss, Adam optimizer (learning rate: 0.001), and data augmentation for better generalization.
 
 **DAE:** The DAE employs an encoder-decoder design to denoise and reconstruct missing structures, trained with Mean Squared Error (MSE) loss and Adam optimizer (learning rate: 0.001), using artificially generated noisy data for training.
 
 **3D GAN:** The generator uses 3D transposed convolutions, and the discriminator employs 3D convolutions. The adversarial model is trained with binary cross-entropy loss and alternating updates via Adam optimizer (learning rates: 0.0002 for the generator, 0.0001 for the discriminator).
 
-* **Training and Evaluation:**
- * Training Process: The models are trained on the subset of the dataset, with hyperparameters optimized to handle 3D volumetric
-   data. The training uses standard evaluation metrics such as the Dice Coefficient, Fréchet Inception Distance (FID), and
+**Training and Evaluation:**
+
+ * Training Process:
+   The models are trained on the subset of the dataset, with hyperparameters optimized to handle 3D volumetric
+   data.
+   
+ * Evaluation:
+   The training uses standard evaluation metrics such as the Dice Coefficient, Fréchet Inception Distance (FID), and
    Inception Score (IS) to assess the quality and realism of the reconstructed anatomical structures.
 
 ## Results
+
 The models were trained and evaluated with the following number of epochs:
 
-**3D U-Net:** Trained for 10 epochs, achieving a Dice coefficient of 78.07%, demonstrating strong performance in reconstructing anatomical structures with good spatial detail.
+**3D U-Net:** 
 
-**Denoising Autoencoder (DAE):** Trained for 5 epochs, achieving a Dice coefficient of 77.7%, indicating slightly lower performance than 3D U-Net, but still impressive in segmentation and reconstruction tasks.
+Trained for 10 epochs, achieving a Dice coefficient of 78.07%, demonstrating strong performance in reconstructing anatomical structures with good spatial detail.
 
-**3D GAN:** Trained for 5 epochs and evaluated with the following scores:
+**Denoising Autoencoder (DAE):** 
 
-Fréchet Inception Distance (FID): 58.4, reflecting the quality of the generated outputs compared to real data.
-Inception Score (IS): 4.92, indicating reasonable diversity and realism in the generated anatomical structures.
+Trained for 5 epochs, achieving a Dice coefficient of 77.7%, indicating slightly lower performance than 3D U-Net, but still impressive in segmentation and reconstruction tasks.
+
+**3D GAN:** 
+
+Trained for 5 epochs and evaluated with the following scores:
+
+* Fréchet Inception Distance (FID): 58.4, reflecting the quality of the generated outputs compared to real data.
+* Inception Score (IS): 4.92, indicating reasonable diversity and realism in the generated anatomical structures.
 
