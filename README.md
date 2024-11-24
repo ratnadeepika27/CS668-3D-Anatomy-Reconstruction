@@ -26,18 +26,10 @@ Reconstructing incomplete 3D anatomical structures is critical for applications 
 59 bones (e.g., femur, skull, vertebrae),
 10 muscles and 8 vessels.
 
-## Why We Chose These Models:
-**3D U-Net:** Known for its encoder-decoder architecture with skip connections, the 3D U-Net is highly effective in preserving spatial details and achieving precise segmentation. It is ideal for accurately reconstructing anatomical structures.
-
-**3D GAN:** GANs excel in generating realistic and visually plausible outputs by learning the underlying distribution of the data. The adversarial training process ensures the generation of high-quality anatomical reconstructions.
-
-**Denoising Autoencoder (DAE):** DAEs are effective at handling noisy or incomplete data by learning robust representations of the input. This makes them suitable for scenarios with corrupted or incomplete input data.
-
 ## Methodology
 **Data Preparation:**
 
 **Preprocessing:** The 3D CT scans and their corresponding anatomical segmentations, stored in 'nii.gz' format, are processed using nibabel and NumPy. The data is normalized and visualized to ensure quality.
-
 
 **Model Implementation:**
   
@@ -46,6 +38,14 @@ Reconstructing incomplete 3D anatomical structures is critical for applications 
 **DAE:** The DAE employs an encoder-decoder design to denoise and reconstruct missing structures, trained with Mean Squared Error (MSE) loss and Adam optimizer (learning rate: 0.001), using artificially generated noisy data for training.
 
 **3D GAN:** The generator uses 3D transposed convolutions, and the discriminator employs 3D convolutions. The adversarial model is trained with binary cross-entropy loss and alternating updates via Adam optimizer (learning rates: 0.0002 for the generator, 0.0001 for the discriminator).
+
+**Why We Chose These Models:**
+
+**3D U-Net:** Known for its encoder-decoder architecture with skip connections, the 3D U-Net is highly effective in preserving spatial details and achieving precise segmentation. It is ideal for accurately reconstructing anatomical structures.
+
+**3D GAN:** GANs excel in generating realistic and visually plausible outputs by learning the underlying distribution of the data. The adversarial training process ensures the generation of high-quality anatomical reconstructions.
+
+**Denoising Autoencoder (DAE):** DAEs are effective at handling noisy or incomplete data by learning robust representations of the input. This makes them suitable for scenarios with corrupted or incomplete input data.
 
 **Training and Evaluation:**
 
