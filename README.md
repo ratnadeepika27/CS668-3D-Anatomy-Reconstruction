@@ -21,12 +21,10 @@ Reconstructing incomplete 3D anatomical structures is critical for applications 
 * What are the optimal deep learning techniques for high-fidelity 3D anatomy completion?
 
 ## Dataset
-* Dataset Source:
- * The dataset used in this project is derived from the TotalSegmentator collection, designed for comprehensive anatomical
-   segmentation in medical imaging. It contains 3D CT images segmented into 104 anatomical structures, including:
-   27 organs (e.g., heart, liver, lungs),
-   59 bones (e.g., femur, skull, vertebrae),
-   10 muscles and 8 vessels.
+**Dataset Source:** The dataset used in this project is derived from the TotalSegmentator collection, designed for comprehensive anatomical segmentation in medical imaging. It contains 3D CT images segmented into 104 anatomical structures, including:
+27 organs (e.g., heart, liver, lungs),
+59 bones (e.g., femur, skull, vertebrae),
+10 muscles and 8 vessels.
 
 ## Why We Chose These Models:
 **3D U-Net:** Known for its encoder-decoder architecture with skip connections, the 3D U-Net is highly effective in preserving spatial details and achieving precise segmentation. It is ideal for accurately reconstructing anatomical structures.
@@ -51,13 +49,11 @@ Reconstructing incomplete 3D anatomical structures is critical for applications 
 
 **Training and Evaluation:**
 
- * Training Process:
-   The models are trained on the subset of the dataset, with hyperparameters optimized to handle 3D volumetric
-   data.
+Training Process:
+The models are trained on the subset of the dataset, with hyperparameters optimized to handle 3D volumetric data.
    
- * Evaluation:
-   The training uses standard evaluation metrics such as the Dice Coefficient, Fréchet Inception Distance (FID), and
-   Inception Score (IS) to assess the quality and realism of the reconstructed anatomical structures.
+Evaluation:
+The training uses standard evaluation metrics such as the Dice Coefficient, Fréchet Inception Distance (FID), and nception Score (IS) to assess the quality and realism of the reconstructed anatomical structures.
 
 ## Results
 
