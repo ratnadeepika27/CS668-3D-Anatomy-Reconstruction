@@ -38,10 +38,11 @@ Reconstructing incomplete 3D anatomical structures is critical for applications 
 ## Methodology
 **Data Preparation:**
 
-* **Preprocessing:** The 3D CT scans and their corresponding anatomical segmentations, stored in 'nii.gz' format, are processed using nibabel and NumPy. The data is normalized and visualized to ensure quality.
+**Preprocessing:** The 3D CT scans and their corresponding anatomical segmentations, stored in 'nii.gz' format, are processed using nibabel and NumPy. The data is normalized and visualized to ensure quality.
 
 
-* **Model Implementation:**
+**Model Implementation:**
+  
 **3D U-Net:** The model utilizes an encoder-decoder structure with 3D convolutions, ReLU activations, and skip connections to preserve spatial details. It is trained with cross-entropy loss, Adam optimizer (learning rate: 0.001), and data augmentation for better generalization.
 
 **DAE:** The DAE employs an encoder-decoder design to denoise and reconstruct missing structures, trained with Mean Squared Error (MSE) loss and Adam optimizer (learning rate: 0.001), using artificially generated noisy data for training.
