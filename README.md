@@ -74,7 +74,7 @@ Trained for 5 epochs and evaluated with the following scores:
 * Fréchet Inception Distance (FID): 58.4, reflecting the quality of the generated outputs compared to real data.
 * Inception Score (IS): 4.92, indicating reasonable diversity and realism in the generated anatomical structures.
 
-**Conclusion and Guture work**
+## Conclusion and Future work
 
 This study demonstrates the potential of deep learning models in reconstructing 3D anatomical structures from incomplete data. The 3D U-Net and DAE models achieved good segmentation accuracy, with Dice coefficients of 78.07% and 77.77%, respectively, showcasing their ability to handle spatial details and denoise input data effectively. The 3D GAN exhibited promising results in generating visually realistic outputs, as reflected in its FID score of 58.4 and IS score of 4.92. While the models successfully reconstructed anatomical structures, the results indicate room for improvement.
 
