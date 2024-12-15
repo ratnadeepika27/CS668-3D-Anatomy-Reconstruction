@@ -77,9 +77,10 @@ Trained for 5 epochs and evaluated with the following scores:
 **Conclusion and Guture work**
 
 This study demonstrates the potential of deep learning models in reconstructing 3D anatomical structures from incomplete data. The 3D U-Net and DAE models achieved good segmentation accuracy, with Dice coefficients of 78.07% and 77.77%, respectively, showcasing their ability to handle spatial details and denoise input data effectively. The 3D GAN exhibited promising results in generating visually realistic outputs, as reflected in its FID score of 58.4 and IS score of 4.92. While the models successfully reconstructed anatomical structures, the results indicate room for improvement.
+
 In Future we will focus on the following Aspects to Improve the model:
-Optimize model architectures with attention mechanisms and hybrid loss functions to enhance performance.
-Expand the dataset to include diverse anatomical structures and pathologies for better generalization.
-Integrate advanced evaluation metrics for comprehensive assessment of reconstruction quality.
-Combine the strengths of 3D U-Net, GAN, and DAE for balanced accuracy and realism.
+* Optimize model architectures with attention mechanisms and hybrid loss functions to enhance performance.
+* Expand the dataset to include diverse anatomical structures and pathologies for better generalization.
+* Integrate advanced evaluation metrics for comprehensive assessment of reconstruction quality.
+* Combine the strengths of 3D U-Net, GAN, and DAE for balanced accuracy and realism.
 
