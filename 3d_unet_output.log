@@ -1,0 +1,111 @@
+Epoch [1/10], Step [0/98], Loss: 3.9619
+Epoch [1/10], Step [10/98], Loss: 0.2412
+Epoch [1/10], Step [20/98], Loss: 0.5141
+Epoch [1/10], Step [30/98], Loss: 0.6966
+Epoch [1/10], Step [40/98], Loss: 0.3626
+Epoch [1/10], Step [50/98], Loss: 0.1779
+Epoch [1/10], Step [60/98], Loss: 0.2991
+Epoch [1/10], Step [70/98], Loss: 0.2014
+Epoch [1/10], Step [80/98], Loss: 0.2282
+Epoch [1/10], Step [90/98], Loss: 0.1642
+Epoch [1/10], Average Loss: 0.4243
+Epoch [2/10], Step [0/98], Loss: 0.2094
+Epoch [2/10], Step [10/98], Loss: 0.2830
+Epoch [2/10], Step [20/98], Loss: 0.3157
+Epoch [2/10], Step [30/98], Loss: 0.4024
+Epoch [2/10], Step [40/98], Loss: 0.3101
+Epoch [2/10], Step [50/98], Loss: 0.2382
+Epoch [2/10], Step [60/98], Loss: 0.2388
+Epoch [2/10], Step [70/98], Loss: 0.1895
+Epoch [2/10], Step [80/98], Loss: 0.4249
+Epoch [2/10], Step [90/98], Loss: 0.2736
+Epoch [2/10], Average Loss: 0.2879
+Epoch [3/10], Step [0/98], Loss: 0.2021
+Epoch [3/10], Step [10/98], Loss: 0.3105
+Epoch [3/10], Step [20/98], Loss: 0.1322
+Epoch [3/10], Step [30/98], Loss: 0.2003
+Epoch [3/10], Step [40/98], Loss: 0.4968
+Epoch [3/10], Step [50/98], Loss: 0.4471
+Epoch [3/10], Step [60/98], Loss: 0.2721
+Epoch [3/10], Step [70/98], Loss: 0.1267
+Epoch [3/10], Step [80/98], Loss: 0.2886
+Epoch [3/10], Step [90/98], Loss: 0.4430
+Epoch [3/10], Average Loss: 0.2686
+Epoch [4/10], Step [0/98], Loss: 0.2602
+Epoch [4/10], Step [10/98], Loss: 0.2854
+Epoch [4/10], Step [20/98], Loss: 0.1814
+Epoch [4/10], Step [30/98], Loss: 0.2351
+Epoch [4/10], Step [40/98], Loss: 0.1959
+Epoch [4/10], Step [50/98], Loss: 0.2020
+Epoch [4/10], Step [60/98], Loss: 0.2043
+Epoch [4/10], Step [70/98], Loss: 0.2181
+Epoch [4/10], Step [80/98], Loss: 0.2766
+Epoch [4/10], Step [90/98], Loss: 0.4021
+Epoch [4/10], Average Loss: 0.2427
+Epoch [5/10], Step [0/98], Loss: 0.2734
+Epoch [5/10], Step [10/98], Loss: 0.1559
+Epoch [5/10], Step [20/98], Loss: 0.2052
+Epoch [5/10], Step [30/98], Loss: 0.1933
+Epoch [5/10], Step [40/98], Loss: 0.1499
+Epoch [5/10], Step [50/98], Loss: 0.2552
+Epoch [5/10], Step [60/98], Loss: 0.5663
+Epoch [5/10], Step [70/98], Loss: 0.3431
+Epoch [5/10], Step [80/98], Loss: 0.3721
+Epoch [5/10], Step [90/98], Loss: 0.1518
+Epoch [5/10], Average Loss: 0.2245
+Epoch [6/10], Step [0/98], Loss: 0.2507
+Epoch [6/10], Step [10/98], Loss: 0.2778
+Epoch [6/10], Step [20/98], Loss: 0.2346
+Epoch [6/10], Step [30/98], Loss: 0.1967
+Epoch [6/10], Step [40/98], Loss: 0.1667
+Epoch [6/10], Step [50/98], Loss: 0.1996
+Epoch [6/10], Step [60/98], Loss: 0.4373
+Epoch [6/10], Step [70/98], Loss: 0.3544
+Epoch [6/10], Step [80/98], Loss: 0.1614
+Epoch [6/10], Step [90/98], Loss: 0.1943
+Epoch [6/10], Average Loss: 0.2129
+Epoch [7/10], Step [0/98], Loss: 0.1934
+Epoch [7/10], Step [10/98], Loss: 0.2810
+Epoch [7/10], Step [20/98], Loss: 0.1711
+Epoch [7/10], Step [30/98], Loss: 0.1436
+Epoch [7/10], Step [40/98], Loss: 0.2455
+Epoch [7/10], Step [50/98], Loss: 0.1484
+Epoch [7/10], Step [60/98], Loss: 0.1889
+Epoch [7/10], Step [70/98], Loss: 0.1489
+Epoch [7/10], Step [80/98], Loss: 0.1847
+Epoch [7/10], Step [90/98], Loss: 0.1716
+Epoch [7/10], Average Loss: 0.2164
+Epoch [8/10], Step [0/98], Loss: 0.1409
+Epoch [8/10], Step [10/98], Loss: 0.3126
+Epoch [8/10], Step [20/98], Loss: 0.2056
+Epoch [8/10], Step [30/98], Loss: 0.1754
+Epoch [8/10], Step [40/98], Loss: 0.2265
+Epoch [8/10], Step [50/98], Loss: 0.1782
+Epoch [8/10], Step [60/98], Loss: 0.1390
+Epoch [8/10], Step [70/98], Loss: 0.1580
+Epoch [8/10], Step [80/98], Loss: 0.2033
+Epoch [8/10], Step [90/98], Loss: 0.2347
+Epoch [8/10], Average Loss: 0.1969
+Epoch [9/10], Step [0/98], Loss: 0.1573
+Epoch [9/10], Step [10/98], Loss: 0.1967
+Epoch [9/10], Step [20/98], Loss: 0.2137
+Epoch [9/10], Step [30/98], Loss: 0.1057
+Epoch [9/10], Step [40/98], Loss: 0.2094
+Epoch [9/10], Step [50/98], Loss: 0.1907
+Epoch [9/10], Step [60/98], Loss: 0.2597
+Epoch [9/10], Step [70/98], Loss: 0.1180
+Epoch [9/10], Step [80/98], Loss: 0.1291
+Epoch [9/10], Step [90/98], Loss: 0.1756
+Epoch [9/10], Average Loss: 0.1994
+Epoch [10/10], Step [0/98], Loss: 0.1376
+Epoch [10/10], Step [10/98], Loss: 0.1448
+Epoch [10/10], Step [20/98], Loss: 0.1460
+Epoch [10/10], Step [30/98], Loss: 0.3336
+Epoch [10/10], Step [40/98], Loss: 0.1531
+Epoch [10/10], Step [50/98], Loss: 0.1515
+Epoch [10/10], Step [60/98], Loss: 0.1995
+Epoch [10/10], Step [70/98], Loss: 0.1697
+Epoch [10/10], Step [80/98], Loss: 0.1905
+Epoch [10/10], Step [90/98], Loss: 0.1786
+Epoch [10/10], Average Loss: 0.1931
+3D U-Net model saved as '/home/b21173/3D_Anatomy/3d_unet_model.pth'.
